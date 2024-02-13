@@ -1,0 +1,48 @@
+/**
+* @name NoStatusStandalone
+* @description placeholder
+* @author qxxst
+* @website https://github.com/qxxst/NoStatusStandalone
+* @version 0.1
+* @authorLink https://github.com/qxxst
+*/
+
+/* Hide status indicators without leaving a hole in icons */
+rect[mask="url(#svg-mask-status-online)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-online-mobile)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-idle)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-dnd)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-offline)"] {
+    display: none;
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-round-32)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-round-120)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.mask__1979f circle {
+    display: none;
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
