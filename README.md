@@ -1,5 +1,5 @@
 # NoStatusStandalone
-placeholder
+A theme to remove status indicators from Discord. Now everyone is either online or offline.
 ## Installation
 1. Install BetterDiscord or any Discord client mod that supports CSS themes.
 2. Download the latest version of the theme from the [releases](https://github.com/qxxst/NoStatusStandalone/releases) page.
