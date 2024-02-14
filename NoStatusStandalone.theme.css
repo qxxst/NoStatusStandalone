@@ -95,6 +95,10 @@ rect[mask="url(#:r20:)"] {
     display: none;
 }
 
+rect[mask="url(#:rb5:)"] {
+    display: none;
+}
+
 .cursorDefault_e4f616 {
     display: none;
 }
