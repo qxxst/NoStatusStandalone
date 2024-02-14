@@ -72,6 +72,12 @@ foreignObject[mask="url(#:r3t:)"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[mask="url(#:r51:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+
 rect[mask="url(#svg-mask-status-online)"] {
     display: none;
 }
