@@ -90,3 +90,8 @@ foreignObject[width="80"][height="80"][mask*="url"] {
 .hoverRoll__041cb {
     display: none;
 }
+
+/* Hide the current activity */
+.activityPanel__22355 {
+    display: none;
+}
