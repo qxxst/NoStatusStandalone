@@ -7,6 +7,9 @@
 * @authorLink https://github.com/qxxst
 */
 
+/* Import rules for URL masks */
+@import url('https://cdn.jsdelivr.net/gh/qxxst/NoStatusStandalone@main/url-masks.theme.css');
+
 /* Hide status indicators without leaving a hole in icons */
 .mask__1979f circle {
     display: none;
