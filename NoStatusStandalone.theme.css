@@ -7,9 +7,6 @@
 * @authorLink https://github.com/qxxst
 */
 
-/* Import rules for URL masks */
-@import url('https://cdn.jsdelivr.net/gh/qxxst/NoStatusStandalone@main/url-masks.theme.css');
-
 /* Hide status indicators without leaving a hole in icons */
 .mask__1979f circle {
     display: none;
@@ -34,6 +31,47 @@
 
 .subtext__1a662 {
     display: none;
+}
+
+rect[mask="url(#svg-mask-status-online)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-online-mobile)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-idle)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-dnd)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-offline)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-online)"] {
+    display: none;
+}
+
+rect[mask="url(#:r20:)"] {
+    display: none;
+}
+
+rect[mask="url(#:rb5:)"] {
+    display: none;
+}
+
+rect[mask="url(#:r4k:)"] {
+    display: none;
+}
+
+foreignObject[width="32"][height="32"][mask*="url"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
 }
 
 /* Removes the "Active Now" section under Friends */
