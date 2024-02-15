@@ -97,6 +97,11 @@ foreignObject[mask="url(#:rfv:)"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[mask="url(#:rgk:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
 rect[mask="url(#svg-mask-status-online)"] {
     display: none;
 }
