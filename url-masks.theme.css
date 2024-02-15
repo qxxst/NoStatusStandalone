@@ -126,6 +126,31 @@ foreignObject[mask="url(#:rgk:)"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[mask="url(#:r9:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+foreignObject[mask="url(#:rj:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+foreignObject[mask="url(#:rp:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+foreignObject[mask="url(#:rl:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+foreignObject[mask="url(#:rd:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
 foreignObject[mask="url(#svg-mask-avatar-status-round-24)"] {
     mask: none;
     clip-path: circle(50% at 50% 50%);
