@@ -57,15 +57,7 @@ rect[mask="url(#svg-mask-status-online)"] {
     display: none;
 }
 
-rect[mask="url(#:r20:)"] {
-    display: none;
-}
-
-rect[mask="url(#:rb5:)"] {
-    display: none;
-}
-
-rect[mask="url(#:r4k:)"] {
+mask rect[width="10"][height="10"] {
     display: none;
 }
 
