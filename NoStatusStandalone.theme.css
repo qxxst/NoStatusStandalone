@@ -20,19 +20,6 @@
     display: none;
 }
 
-/* Hide activity text */
-.subText_ab7e13 {
-    display: none;
-}
-
-.activity_a8c37a {
-    display: none;
-}
-
-.subtext__1a662 {
-    display: none;
-}
-
 rect[mask="url(#svg-mask-status-online)"] {
     display: none;
 }
@@ -74,6 +61,19 @@ foreignObject[width="32"][height="32"][mask*="url"] {
 foreignObject[width="80"][height="80"][mask*="url"] {
     mask: none;
     clip-path: circle(50% at 50% 50%);
+}
+
+/* Hide activity text */
+.subText_ab7e13 {
+    display: none;
+}
+
+.activity_a8c37a {
+    display: none;
+}
+
+.subtext__1a662 {
+    display: none;
 }
 
 /* Removes the "Active Now" section under Friends */
