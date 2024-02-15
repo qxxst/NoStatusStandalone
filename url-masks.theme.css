@@ -51,6 +51,11 @@ foreignObject[mask="url(#:r1:)"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[mask="url(#:r1r:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
 foreignObject[mask="url(#:r1o:)"] {
     mask: none;
     clip-path: circle(50% at 50% 50%);
