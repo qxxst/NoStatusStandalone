@@ -40,3 +40,8 @@
 .nowPlayingColumn_f5023f {
     display: none;
 }
+
+/* Fix usernames with discriminators under Friends */
+.discordTag_e6cb79 {
+    align-items: center;
+}
