@@ -35,3 +35,8 @@
 .subtext__1a662 {
     display: none;
 }
+
+/* Removes the "Active Now" section under Friends */
+.nowPlayingColumn_f5023f {
+    display: none;
+}
