@@ -161,6 +161,11 @@ foreignObject[mask="url(#:rd:)"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[mask="url(#:r6k:)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
 foreignObject[mask="url(#svg-mask-avatar-status-round-24)"] {
     mask: none;
     clip-path: circle(50% at 50% 50%);
