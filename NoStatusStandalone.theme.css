@@ -93,3 +93,8 @@ foreignObject[width="80"][height="80"][mask*="url"] {
 .discordTag_e6cb79 {
     align-items: center;
 }
+
+/* Hide online indicator in the bottom left */
+.hoverRoll__041cb {
+    display: none;
+}
