@@ -63,6 +63,15 @@ foreignObject[width="80"][height="80"][mask*="url"] {
     clip-path: circle(50% at 50% 50%);
 }
 
+foreignObject[width="120"][height="120"][mask*="url"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+svg rect[width="40"][height="52"] {
+    display: none;
+}
+
 /* Hide activity text */
 .subText_ab7e13 {
     display: none;
