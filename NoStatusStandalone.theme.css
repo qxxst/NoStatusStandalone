@@ -72,6 +72,10 @@ svg rect[width="40"][height="52"] {
     display: none;
 }
 
+svg rect[width="28"][height="36"] {
+    display: none;
+}
+
 /* Hide activity text */
 .subText_ab7e13 {
     display: none;
